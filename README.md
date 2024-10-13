@@ -29,3 +29,6 @@ A plugin that should be installable from packagist.org needs to fulfill a few re
 Any other ideas or recommendations? Feel free to start a Discussion or raise an issue.
 
 
+This is the result of this Mastodon post and thread:
+
+<iframe src="https://phpc.social/@heiglandreas/113298896531725865/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://phpc.social/embed.js" async="async"></script>
