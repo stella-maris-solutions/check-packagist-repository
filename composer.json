@@ -1,0 +1,20 @@
+{
+    "name": "stella-maris/check-packagist-repository",
+    "description": "Check Packagist for WordPress plugins",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "StellaMaris\\CheckPackagistRepository\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Heigl",
+            "email": "andreas@stella-maris.solutions"
+        }
+    ],
+    "require": {
+			"php": "^8.0"
+	}
+}
