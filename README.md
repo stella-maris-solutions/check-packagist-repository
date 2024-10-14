@@ -18,7 +18,7 @@ A plugin that should be installable from packagist.org needs to fulfill a few re
   when installing the package. The metadata will be taken from the `composer.json` file.
 * The plugin-slug will be `packagist- ` followed by the package-name with the `/` replaced by a `-`. So the package
   `namespace/plugin` will become the plugin `packagist-namespace-plugin`. The reasoning is that we do not want subfolders for
-  plugins. I decided against providing an arbitrarx slug as that will inevitably lead to chaos. Prefixing the plugin
+  plugins. I decided against providing an arbitrary slug as that will inevitably lead to chaos. Prefixing the plugin
   with `packagist` will allow other repositories to use a similar approach without interfering with one another.
 * I am thinking about being able to specify the name of an uploaded artifact to install instead of the default ZIP file
   from a git repo. But that might be very specific depending on the underlying package. So for now you will need to
